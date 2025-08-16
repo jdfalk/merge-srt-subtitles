@@ -1,5 +1,5 @@
 # file: .github/workflows/pr-automation.yml
-# version: 2.0.0
+# version: 2.0.1
 # guid: a7b8c9d0-e1f2-3456-a789-0123456789bc
 
 name: PR Automation
@@ -16,7 +16,6 @@ permissions:
   issues: write
   checks: write
   statuses: write
-  security-events: write
   actions: read
 
 jobs:
